@@ -1,0 +1,41 @@
+{
+    "name": "haiek/craft-geo-lite",
+    "description": "Fetches location based on IP from the GeoIP2 Lite database",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft geolite"
+    ],
+    "support": {
+        "docs": "https://github.com/HaiekTech/craft-geo-lite/blob/master/README.md",
+        "issues": "https://github.com/HaiekTech/craft-geo-lite/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HAIEK",
+            "homepage": "https://github.com/HaiekTech"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "geoip2/geoip2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "haiek\\craftgeolite\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craft GeoLite",
+        "handle": "craft-geo-lite",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/HaiekTech/craft-geo-lite/master/CHANGELOG.md",
+        "class": "haiek\\craftgeolite\\CraftGeolite"
+    }
+}
