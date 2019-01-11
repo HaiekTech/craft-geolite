@@ -2,7 +2,6 @@
     "name": "haiek/craft-geo-lite",
     "description": "Fetches location based on IP from the GeoIP2 Lite database",
     "type": "craft-plugin",
-    "version": "0.0.1",
     "keywords": [
         "craft",
         "cms",
