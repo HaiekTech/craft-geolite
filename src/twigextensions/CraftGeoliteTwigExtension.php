@@ -86,7 +86,7 @@ class CraftGeoliteTwigExtension extends \Twig_Extension
             return $record;
         }
         catch(\Exception $e){
-             return null;
+            return null;
         }
         
         return null;
